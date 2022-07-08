@@ -1,0 +1,180 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+*{
+    margin: 0px;
+}
+
+h1#Título{
+    font-family: 'Bree Serif';
+    font-size: 60px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    background-color: #003ec5;    
+    height: 120px; 
+}
+
+nav{
+    height: 120px;
+    background-color: #003ec5;
+    display: flex;
+    flex-direction: row;
+}
+
+div#Menu{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: normal;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    margin: auto;
+    text-align: center; 
+    font-family: 'Bree Serif';
+    text-decoration: underline;
+}
+
+p.info{
+    font-size: 20px;
+}
+
+div#cadastropage{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 1px 1px 10px black;  
+}
+
+div#cadastropage h1{
+    text-align: center;
+    font-family: 'Bree Serif';
+    font-size: 70px;
+}
+
+div#cadastropage p{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Righteous';
+}
+
+button
+{
+    background-color: transparent;
+    border-color: black;
+    color: black;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: all .5s ease-out;
+}
+
+form{
+    margin-top: 40px;
+    margin-left: 5%;
+}
+
+div#usuario{
+    display: flex;
+    flex-direction: column;
+}
+div#nome{
+    display: flex;
+    flex-direction: column;
+}
+div#email{
+    display: flex;
+    flex-direction: column;
+}
+div#senha{
+    display: flex;
+    flex-direction: column;
+}
+div#confirme{
+    display: flex;
+    flex-direction: column;
+}
+
+input#caixa{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+input#enviar{
+    margin-left: 80%;
+    margin-top: 20px;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+@media (max-width: 530px){
+    div#cadastropage{
+        width: 170px;
+    }
+    
+    input#enviar{
+        margin-left: 60px;
+        margin-top: 50px;
+    }
+
+    div#cadastropage h1{
+        font-size: 40px;
+    }
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(37, 37, 37);
+    height: auto;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+div#divlogo{
+    font-family: 'Permanent Marker';
+    font-size: 60px;
+    margin-left: 6%;
+    color: white;
+}
+
+div#divcopy{
+    margin-left: 33%;
+    margin-top: 3%;
+    margin-right: 40%;
+    color: white;
+    font-size: smaller;
+}
+
+div#Menu a:visited{
+    color: white;
+}
+
+div#Menu a:hover{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+input#enviar:hover{
+    background-color: lavender;
+}
+div#Menu a{
+    color: white;
+    text-decoration: underline;
+}
